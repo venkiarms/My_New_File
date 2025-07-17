@@ -26,7 +26,7 @@ with st.sidebar:
     )
 
 if menu == "Home":
-    st.title("Home")
+    st.title("Registration Form")
     col1,col2 = st.columns(2)
     with col1:
         st.text_input("name")
